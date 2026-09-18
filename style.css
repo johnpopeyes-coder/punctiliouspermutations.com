@@ -163,7 +163,7 @@ h1, h2, h3 { font-family: var(--display); text-transform: uppercase; margin: 0; 
   overflow: hidden;
   padding: 16px 0;
 }
-.ticker-track { display: flex; width: max-content; animation: ticker 20s linear infinite; }
+.ticker-track { display: flex; width: max-content; animation: ticker 45s linear infinite; }
 .ticker-row {
   display: flex;
   gap: 28px;
