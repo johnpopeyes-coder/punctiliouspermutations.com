@@ -247,6 +247,21 @@ h1, h2, h3 { font-family: var(--display); text-transform: uppercase; margin: 0; 
 }
 .your-app h3 { margin-top: 0; font-size: 26px; letter-spacing: -0.5px; }
 
+.app-card { min-height: 220px; display: flex; flex-direction: column; align-items: flex-start; }
+.app-card h3 { margin-top: 20px; overflow-wrap: anywhere; }
+.app-tag {
+  display: inline-block;
+  border: 3px solid var(--ink);
+  padding: 4px 10px;
+  font-family: var(--display);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.tag-lime { background: var(--lime); }
+.tag-orange { background: var(--orange); }
+.tag-sky { background: var(--sky); color: var(--paper); }
+
 .statement {
   margin: 0;
   font-family: var(--display);
@@ -309,6 +324,7 @@ h1, h2, h3 { font-family: var(--display); text-transform: uppercase; margin: 0; 
   .hero-badge-2 { display: none; }
   .cards { grid-template-columns: 1fr; gap: 28px; }
   .slot, .card-orange { min-height: 180px; }
+  .app-card { min-height: 0; }
 }
 
 @media (max-width: 720px) {
